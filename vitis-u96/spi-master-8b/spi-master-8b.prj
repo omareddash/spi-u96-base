@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="spi-master-8b" location="C:/Repos/Crocodile/vitis-u96/spi-master-8b" platform="C:/Repos/Crocodile/vitis-u96/spi-standalone-master/export/spi-standalone-master/spi-standalone-master.xpfm" platformUID="xilinx:ultra96v2:name:0.0(custom)" systemProject="spi-master-8b_system" sysConfig="spi-standalone-master" runtime="C/C++" cpu="standalone_domain" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="1ca1b4c93cf7dcef10b68d47e36fc371">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1954219873">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1554690978" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

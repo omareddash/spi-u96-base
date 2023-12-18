@@ -1,0 +1,6 @@
+23:09:20 **** Incremental Build of configuration Emulation-SW for project spi-master-8b_system ****
+make all 
+Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
+
+23:09:20 Build Finished (took 256ms)
+

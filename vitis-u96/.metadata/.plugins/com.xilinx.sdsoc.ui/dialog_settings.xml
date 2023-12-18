@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Repos\Crocodile\axi-spi-standalone-master;C:\Repos\Crocodile\vitis-u96\spi-standalone-master\export\spi-standalone-master"/>
+	<item key="sdx.custom.platform.repository.last.directory.dialog.location" value="C:\Repos\Crocodile\vitis-u96\spi-standalone-master\export\spi-standalone-master"/>
+</section>

@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN A7 [get_ports {spi_rtl_ss_io[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {spi_rtl_ss_io[0]}]
+set_property PACKAGE_PIN G6 [get_ports spi_rtl_io0_io]
+set_property PACKAGE_PIN B6 [get_ports spi_rtl_io1_io]
+set_property PACKAGE_PIN C5 [get_ports spi_rtl_sck_io]
+set_property IOSTANDARD LVCMOS18 [get_ports spi_rtl_io0_io]
+set_property IOSTANDARD LVCMOS18 [get_ports spi_rtl_io1_io]
+set_property IOSTANDARD LVCMOS18 [get_ports spi_rtl_sck_io]

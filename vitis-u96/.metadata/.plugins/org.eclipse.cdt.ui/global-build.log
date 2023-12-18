@@ -1,0 +1,28 @@
+Nothing to build in platform 'spi-standalone-master'
+
+23:09:18 **** Incremental Build of configuration Debug for project spi-master-8b ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Repos/Crocodile/vitis-u96/spi-standalone-master/export/spi-standalone-master/sw/spi-standalone-master/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Repos/Crocodile/vitis-u96/spi-standalone-master/export/spi-standalone-master/sw/spi-standalone-master/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: spi-master-8b.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Repos/Crocodile/vitis-u96/spi-standalone-master/export/spi-standalone-master/sw/spi-standalone-master/standalone_domain/bsplib/lib -o "spi-master-8b.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi-master-8b.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size spi-master-8b.elf  |tee "spi-master-8b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37820	   2096	  20876	  60792	   ed78	spi-master-8b.elf
+'Finished building: spi-master-8b.elf.size'
+' '
+23:09:20 **** Incremental Build of configuration Emulation-SW for project spi-master-8b_system ****
+make all 
+Package not supported, if the system project is in Emulation Target, and only Baremetal Or Embedded Linux Applications present
